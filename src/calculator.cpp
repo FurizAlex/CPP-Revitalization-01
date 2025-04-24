@@ -16,9 +16,9 @@ int main()
 	switch (op)
 	{
 		case '+': res = a + b; break;
-		case '-': res = a + b; break;
-		case '*': res = a + b; break;
-		case '/': res = a + b; break;
+		case '-': res = a - b; break;
+		case '*': res = a * b; break;
+		case '/': res = a / b; break;
 		default: cout << "Error: Invalid Operator"; res = -DBL_MAX;
 	}
 	if (res != -DBL_MAX)
